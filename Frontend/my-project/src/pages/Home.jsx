@@ -47,6 +47,22 @@ export default function Home(){
                     size="md"
                 />
             </div>
+            <div style={{ marginTop: '20px' }}>
+                <RouterBtn 
+                    label="Your Watch List" 
+                    to="/watchlist" 
+                    variant="primary"
+                    size="md"
+                />
+            </div>
+            <div style={{ marginTop: '20px' }}>
+                <RouterBtn 
+                    label="Shared Watch List" 
+                    to="/sharedwatchlist" 
+                    variant="primary"
+                    size="md"
+                />
+            </div>           
         </>
     );
 }
